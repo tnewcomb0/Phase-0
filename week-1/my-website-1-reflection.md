@@ -1,5 +1,5 @@
 Paste a link to your [USERNAME].github.io repository.
-<tnewcomb0.github.io>
+tnewcomb0.github.io
 Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
 You would go to the Github website and click create repository. Then to clone it you would copy the URL and, in the terminal, type git clone -copy url here-
 Describe what open source means.
