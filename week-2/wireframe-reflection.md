@@ -1,3 +1,3 @@
-![Main Wireframe](/tnewcomb0.githib.io/wireframe-index.jpg)
+![Main Wireframe](https://github.com/tnewcomb0/tnewcomb0.github.io/blob/master/wireframe-index.pdf)
 
-![Blog index wireframe](/tnewcomb0.github.io/wireframe-blog-index.png)
+![Blog index wireframe](https://github.com/tnewcomb0/tnewcomb0.github.io/blob/master/wireframe-blog-index.png)
