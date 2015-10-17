@@ -58,3 +58,25 @@ body p:nth-child(3) {
 .footer-text {
   font-size: .6em;
 }
+
+
+/* What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It was important to know where the file was located so you could link the CSS file to the HTML. You need to create a path from where the HTML is to where the CSS is.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+We tried using margin: auto; but we were having trouble getting it to work for some reason. So we ended up just moving the margins around using px, which was certainly not optimal. We alo used float and clear to make sure the elements stayed distinct. Positioning seems like it will be the most difficult part of CSS.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+We used color: #whatever color;, font-size:whatever size (in em usually);, and we tried to use relative sizes instead of absolute ones, like pixels.
+
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+
+We started out not using classes, but soon found that using them was very helpful. We didn't use any IDs, as those are a one use only kind of thing, and figured it'd be better to write CSS we could use multiple times.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+We had much cleaner code, despite it still being a little sloppy, because the original site doesn't even seem to use CSS at all, everything is just in the HTML. So even though we weren't really able to use the best practices all the time we still have much cleaner code.
+*/
