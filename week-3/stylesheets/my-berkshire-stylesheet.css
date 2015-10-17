@@ -1,0 +1,60 @@
+* {
+    color:#000080;
+    background-color: #ffffff;
+}
+a {
+    color:#800080;
+}
+a:visited {
+    color:#ff0000;
+}
+li span {
+    color: black;
+    font-size: .5em;
+}
+div ul:first-child {
+    float: left;
+    display: inline-block;
+    margin-right: 4em;
+}
+div ul:nth-child(2) {
+    float:right;
+    display: inline-block;
+    margin-right: 20px;
+}
+body p:first-child {
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+li {
+    margin-bottom: 2em;
+}
+.bigtext {
+    font-size: 2em;
+}
+.geico {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    clear: both;
+}
+
+.textcenter {
+  margin: 390px;
+  font-size: .5em;
+}
+.textcenter2 {
+  margin: 550px;
+}
+
+img {
+  margin: auto;
+  padding-top: .5em;
+  display: block;
+}
+body p:nth-child(3) {
+    border-bottom: 3px solid black;
+}
+.footer-text {
+  font-size: .6em;
+}
