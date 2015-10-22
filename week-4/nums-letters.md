@@ -16,7 +16,7 @@ Hours in a year:
 p 24*365
 ```
 
-#Minutes in a decade:
+Minutes in a decade:
 ```
 p 60*24*365*10
 ```
