@@ -1,18 +1,18 @@
 # Solution Below
 
-num1 = "10"
+num1 = 10
 
-num2 = "23"
+num2 = 23
 
-sum = "33"
+sum = 33
 
-difference = "-13"
+difference = -13
 
-product = "230"
+product = 230
 
-quotient = "0.43478260869565216"
+quotient = 0.43478260869565216
 
-modulus = "10.0"
+modulus = 10.0
 
 
 # RSpec Tests. They are included in this file because the local variables you are creating are not accessible across files. If we try to run these files as a separate file per normal operation, the local variable checks will return nil.

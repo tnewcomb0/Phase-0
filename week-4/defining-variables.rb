@@ -4,7 +4,7 @@ first_name='Trevor'
 
 last_name='Newcomb'
 
-age='26'
+age=26
 
 
 # RSpec Tests. They are included in this file because the local variables you are creating are not accessible across files. If we try to run these files as a separate file per normal operation, the local variable checks will return nil.
@@ -36,6 +36,6 @@ describe 'age' do
   end
 
   it "is an integer" do
-    expect(age).to be_a String
+    expect(age).to be_a Fixnum
   end
 end
