@@ -46,3 +46,9 @@ How was this challenge? Did you get a good review of some of the basics?
 
 This challenge went pretty quickly, but I hit a sang becuase my tests wouldn't pass, I was getting an error message about my variables not being Fixnums.
 -->
+
+[Simple string](https://github.com/tnewcomb0/Phase-0/blob/master/week-4/simple-string.rb)
+
+[Defining variables](https://github.com/tnewcomb0/Phase-0/blob/master/week-4/defining-variables.rb)
+
+[Basic Math](https://github.com/tnewcomb0/Phase-0/blob/master/week-4/basic-math.rb)
