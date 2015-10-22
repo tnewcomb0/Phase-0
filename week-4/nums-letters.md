@@ -1,4 +1,4 @@
-<!--What does puts do?
+What does puts do?
 
 Puts prints the output into your console and adds a blank line afterwards.
 
@@ -10,7 +10,7 @@ What is the difference between float and integer division? How would you explain
 
 Float division is just like regular division, in that it returns the exact answer, donw to the decimal value. Integer division, however, returns only integet values, so no numbers with decimal points. So it will round down any integer value in the answer.
 
-Hours in a year: -->
+Hours in a year:
 
 ```
 p 24*365
@@ -21,7 +21,7 @@ p 24*365
 p 60*24*365*10
 ```
 
-<!--
+
 How does Ruby handle addition, subtraction, multiplication, and division of numbers?
 
 Ruby uses the +, -, *, and / operators to handle the basic addition, subtraction, muliplication, and division of numbers.
@@ -45,7 +45,7 @@ Local variables are ways of storing information that you can access throughout t
 How was this challenge? Did you get a good review of some of the basics?
 
 This challenge went pretty quickly, but I hit a sang becuase my tests wouldn't pass, I was getting an error message about my variables not being Fixnums.
--->
+
 
 [Simple string](https://github.com/tnewcomb0/Phase-0/blob/master/week-4/simple-string.rb)
 
