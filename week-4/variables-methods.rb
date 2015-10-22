@@ -42,7 +42,7 @@ You type rspec <file_name>.rb
 What was confusing about this material? What made sense?
 
 Not too much was confusing, the only thing that threw me was Chris Pine using different syntax than I was used to, for example calling variables with " + variable_name + " instead of #{variable_name}.
-
+=end
 
 [Method](https://github.com/tnewcomb0/Phase-0/blob/master/week-4/define-method/my_solution.rb)
 
@@ -50,4 +50,3 @@ Not too much was confusing, the only thing that threw me was Chris Pine using di
 
 [Math](https://github.com/tnewcomb0/Phase-0/blob/master/week-4/math/my_solution.rb)
 
-=end
