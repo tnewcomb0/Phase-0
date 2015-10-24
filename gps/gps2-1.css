@@ -1,0 +1,42 @@
+html {
+  background-color: #80DCDC;
+}
+
+header {
+  display: fixed;
+  /*background-color:brown;*/
+  text-align: center;
+  font-family: PT Serif;
+}
+.octocat {
+margin: 0 auto;
+/*border: solid red;*/
+width: 256px;
+height: 234px;
+}
+.column-1 {
+  /*background-color: blue;*/
+  display: inline-block;
+  float:left;
+  margin-left: 5em;
+  width:40%;
+  height:1100px;
+  font-family: Impact;
+}
+.column-2 {
+  /*background-color: green;*/
+  display: inline-block;
+  float:right;
+ margin-right: 5em;
+  width:40%;
+  height:1100px;
+  font-family: Impact;
+}
+footer {
+  /*background-color: yellow;*/
+  width: 100%;
+  clear: both;
+  margin-top: 2em;
+  text-align:center;
+font-family: PT Serif;
+}
