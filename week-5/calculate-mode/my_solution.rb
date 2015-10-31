@@ -12,10 +12,10 @@
 
 # 0. Pseudocode
 
-# What is the input?
-# What is the output? (i.e. What should the code return?)
+# What is the input? The provided array.
+# What is the output? (i.e. What should the code return?) The mode of the array.
 # What are the steps needed to solve the problem?
-
+# First we created a new variable for the output and a new empty hash. Next, we iterated through the provided array and set each unique element as a key with a value of 1, and any time the key repeated its value had 1 added to it. Next, we sorted the hash by its values and then returned the key of the last hash in the list.
 
 # 1. Initial Solution
 
