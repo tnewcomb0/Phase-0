@@ -55,11 +55,28 @@ def mode(input_array)
         end
     end
 
-    output_mode = mode_hash.sort_by { |thing, blah| blah }
+    output_mode = mode_hash.values.sort
 
-    p output_mode[mode_hash.keys.last]
+    result = mode_hash.select { |k,v|
+        v == output_mode[-1]
+    }
+
+    return result.keys
 end
 
-p mode([1, 2, 3, 4, 5, 5, 7])
-
 # 4. Reflection
+# Which data structure did you and your pair decide to implement and why?
+
+# We used a hash because it can store a value that corresponed to the number of times an element was in the array.
+
+# Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
+
+# I was a little more successful this time because I had a little better grasp on how arrays and hashes work.
+
+# What issues/successes did you run into when translating your pseudocode to code?
+
+# We were unsure how to get the last hash key from a hash without knowing the actual name of the key.
+
+# What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+
+#We tried a few different refactors, but they all ended up being at least as complex as our initial solution, so we ended up sticking with that. One I thought would work but didn't help much was sort_by.
