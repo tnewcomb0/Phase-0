@@ -1,9 +1,11 @@
 # Numbers to Commas Solo Challenge
 
 # I spent 2.5 hours on this challenge.
+
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.
+
 # 0. Pseudocode
 
 # What is the input?
@@ -56,7 +58,7 @@ def separate_comma(num)
   return string_num + comma
 end
 
-# I didn't have to change anything with my initial solution, since I'd been perusing Ruby Docs a lot lately I remembered the slice! command and figured it'd be perfect for this. However, that isn't to say that coming up with this solution didn't take a really long time...
+# I didn't have to change anything with my initial solution, other than taking out a variable I didn't need. Since I'd been perusing Ruby Docs a lot lately I remembered the slice command and figured it'd be perfect for this. However, that isn't to say that coming up with this solution didn't take a really long time...
 
 
 # 3. Reflection
