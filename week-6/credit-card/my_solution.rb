@@ -5,10 +5,20 @@
 # I spent [#] hours on this challenge.
 
 # Pseudocode
+=begin
+- define the class
+- check if input is a valid number (16 digits)
+- splits up number into single digits
+- double ever other number starting from the first digit
+- split numbers into single digits, double digits must be split into single digits
+- add single digits together
+- if the sum is divisible by 10 with a remainder of 0, there is a profit
 
-# Input:
-# Output:
-# Steps:
+=end
+
+# Input: 16 digit number
+# Output: true or false value
+# Steps: see above
 
 
 # Initial Solution
