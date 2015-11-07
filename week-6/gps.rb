@@ -48,15 +48,19 @@ p serving_size_calc("THIS IS AN ERROR", 5)
 =begin
 
 What did you learn about making code readable by working on this challenge?
-  asdf
+
+  I learned that naming your variables well is very important. Half of the difficulty of this assignment was just figuring out what each variable meant.
 
 Did you learn any new methods? What did you learn about them?
-  asdf
+
+  I didn't learn any new methods so much as learn how to navigate through other peoples messy code.
 
 What did you learn about accessing data in hashes?
-  asdf
+
+  I learned that you access them in similar ways to accessing arrays, but you just have to use their keys instead of index numbers, and there's a little more to it.
 
 What concepts were solidified when working through this challenge?
-  asdf
+
+ I really got a better hang of navigating through hashes and using multiple variables and making them interact with each other.
 
 =end
