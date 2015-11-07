@@ -120,3 +120,15 @@ class CreditCard
 
 
 # Reflection
+
+# What was the most difficult part of this challenge for you and your pair?
+
+# We were having trouble accessing the variables between methods.
+
+# What new methods did you find to help you when you refactored?
+
+# We used .inject to add up all the numbers in an array, and we used .map!.with_index to double some numbers but not others in an array.
+
+# What concepts or learnings were you able to solidify in this challenge?
+
+# I got a lot better at using classes and instance variables an at accessing methods inside of other methods.
