@@ -67,8 +67,7 @@ class BingoBoard
   def bingo_call
     @column = @letter.sample
     @number = rand(100)
-    p @column
-    p @number
+    p "#{@column}-#{@number}"
     #These p could be removed but I like seeing what was called.
   end
 
@@ -109,6 +108,36 @@ new_game = BingoBoard.new(board)
   new_game.bingo_call
   new_game.bingo_check
   new_game.display_board
-
+ # I don't need to call the check and call methods so many times but I wanted to get more chances to score an x.
 #Reflection
+=begin
 
+How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
+
+The pseudocoding wasn't too difficult, I just don't know if I'm quite doing it in the best way though, I'm sure I could improve on it by quite a bit. I find that I sometimes add steps I don't need or leave out steps that I do need.
+
+What are the benefits of using a class for this challenge?
+
+The benefits are that you can use instance variables and have multiple methods that can reference the same variables. It is all nicely contained in the class.
+
+How can you access coordinates in a nested array?
+
+You use syntax like this: array_name[1][0]
+
+What methods did you use to access and modify the array?
+
+.each and .index, .each just iterates through each element in an array and .index returns the index number of the first element that returns true.
+
+Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
+
+I learned about .sample, which takes a random element from an array. It's nice because it can handle strings as well as numbers.
+
+How did you determine what should be an instance variable versus a local variable?
+
+If you want the variable to be accessible all throughout the class (in any of the classes methods) then you want an instance variable. If you want the variable to be contained inside the method that you create it in then you want a local variable.
+
+What do you feel is most improved in your refactored solution?
+
+I used .sample to simplify a little bit of code and I used .each to compress 5 lines into one. There wasn't really too much that changed, more just compressing code down. I like that the answer is as minimal as I can get it, I thought this might turn into a really long bit of code.
+
+  =end
