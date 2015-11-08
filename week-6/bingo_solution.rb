@@ -10,7 +10,7 @@
   # Try to emulate the same code as the die class this week for generating a random letter, and use .rand for the number.
 
 # Check the called column for the number called.
-  #First, iterate through the bingo board. Find out which array you need to look in for the number, and then see if the number is there.
+  #First, iterate through the bingo board. Find out which index of each array (column) you need to look in for the number, and then see if the number is there.
 
 # If the number is in the column, replace with an 'x'
   # Use an if/then statement to replace the number with x.
