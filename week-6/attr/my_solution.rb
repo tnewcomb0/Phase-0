@@ -1,14 +1,14 @@
 #Attr Methods
 
-# I worked on this challenge [by myself, with:]
+# I worked on this challenge by myself.
 
-# I spent [#] hours on this challenge.
+# I spent 1.5 hours on this challenge.
 
 # Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input:A name
+# Output: A string greeting you with your name.
+# Steps: Make a class. Initialize the class with an instance variable for your name. Write a method with another instance variable that references the first class and gets the name. Write another method that outputs the string referencing your name.
 
 class NameData
   attr_reader :name
