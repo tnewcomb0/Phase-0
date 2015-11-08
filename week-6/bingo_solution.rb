@@ -65,18 +65,18 @@ class BingoBoard
   end
 
   def bingo_call
-    @column = @letter.sample
     @number = rand(100)
+    @column = @letter.sample
     p "#{@column}-#{@number}"
-    #These p could be removed but I like seeing what was called.
+    #The p could be removed but I like seeing what was called.
   end
 
-   def bingo_check
-      @bingo_board.each do |number|
-        if number[@letter.index(@column)] == @number
-        then  number[@letter.index(@column)] = "x"
-        end
+  def bingo_check
+    @bingo_board.each do |number|
+      if number[@letter.index(@column)] == @number
+      then number[@letter.index(@column)] = "x"
       end
+    end
   end
 
   def display_board
