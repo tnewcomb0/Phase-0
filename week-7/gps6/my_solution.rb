@@ -98,3 +98,23 @@ end
 
 #=======================================================================
 # Reflection Section
+
+# What are the differences between the two different hash syntaxes shown in the state_data file?
+
+# The differences are one uses symbol represenation and the other uses the so-called hashrocket =>
+
+# What does require_relative do? How is it different from require?
+
+# Require_relative checks the same folder (or a specified folder from the file), while require checks a specified file path in the Ruby library.
+
+# What are some ways to iterate through a hash?
+
+# You can use .each, you can use .map, you can also use variations of .each like .each_value or .each_key
+
+# When refactoring virus_effects, what stood out to you about the variables, if anything?
+
+# What stood out was that they weren't needed in some cases.
+
+# What concept did you most solidify in this challenge?
+
+# I think the concept that became more clear to me was when arguments were needed for other methods in a class and when they weren't. Also how to use case when.
