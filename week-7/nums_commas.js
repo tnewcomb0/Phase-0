@@ -63,3 +63,18 @@ add_commas(1234567)
 
 
 // Reflection
+// What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+
+// It was similar to doing the problem in Ruby, just had to make some adjustments to make the different methods and variables work in js.
+
+// What did you learn about iterating over arrays in JavaScript?
+
+// I learned that Ruby does it way better. You have to use much more complex logic.
+
+// What was different about solving this problem in JavaScript?
+
+// You had to iterate through it in a more complex way, but other than that it was quite similar.
+
+// What built-in methods did you find to incorporate in your refactored solution?
+
+// We didn't really find anything new, just took out a little superfluous code.
