@@ -75,3 +75,14 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 
 
 // Reflection
+// What JavaScript knowledge did you solidify in this challenge?
+
+// I learned more about how looping works in JS. I also learned more about how constructor functions work.
+
+// What are constructor functions?
+
+// Construtor functions are basically a different way of writing an object, but using a function instead of a variable.
+
+// How are constructors different from Ruby classes (in your research)?
+
+// They are a function, and lack some of the abilities of a class in Ruby. They seem, at least for now, to be a much more difficult way to do similar things than a class in Ruby.
