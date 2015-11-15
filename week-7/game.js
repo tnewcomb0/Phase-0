@@ -94,15 +94,15 @@ var fighton = function(){
   console.log ("You feel stronger somehow after defeating the skeleton.")
   chunk.health = 100
   chunk.damage = 10
-  console.log("You open the door leading further into the castle and come upon a monstrosity- a creature that looks as if it is fashioned from different animals. It has the head of a lion, the body of a horse, its tail is a snake, and it has the talons of an eagle. You remember learning of these creatures, they are called chimaeras. You feel like your only avenues for attack are the head or the tail.")
+  console.log("You open the door leading further into the castle and come upon a monstrosity- a creature that looks as if it is fashioned from different animals. It has the head of a lion on one end, the body of a horse, the head of a snake on the other end, and it has the talons of an eagle. You remember learning of these creatures, they are called chimaeras. You have to choose which end you will attack.")
 }
   var fightBoss = function(chimaeraDecision){
-  if (chimaeraDecision === "head"){
-    console.log("You charge straight in and start swinging at the head, landing blow after blow. But the chimaera is crafty, it spins around and the snake tail sinks its fangs into you. You feel you limbs go numb as the poison pumps through your blood. Your vision goes black.")
+  if (chimaeraDecision === "lion"){
+    console.log("You charge straight in and start swinging at the lions-head, landing blow after blow. But the chimaera is crafty, it spins around and the snake-head sinks its fangs into you. You feel you limbs go numb as the poison pumps through your blood. Your vision goes black.")
 end("dead")
   }
-  else if (chimaeraDecision === "tail"){
-    console.log("You circle around behind the chimaera and smash the weaving snake tail. You are able to fend off its raking talons and snapping maw and land enough solid blows to knock it out. You step past it and continue on, feeling that your quest is almost at an end.")
+  else if (chimaeraDecision === "snake"){
+    console.log("You circle around behind the chimaera and smash the weaving snake-head. You are able to fend off its raking talons and snapping maw and land enough solid blows to knock it out. You step past it and continue on, feeling that your quest is almost at an end.")
     end("alive")
   }
 }
@@ -133,7 +133,8 @@ var end = function(status){
 
 
 
-// Now, you have to fight the skeleton, type either fightSword or fightHammer, depending on your earlier weapon choice. Also, choose whether you want to fight it by adding ("yes") or ("no") after your fightSword or fightHammer.
+// Now, you have to fight the skeleton, type either fightSword or fightHammer, depending on your earlier weapon choice. Also, choose whether you want to fight it by adding ("yes") or ("no") after your fightSword or fightHammer. If you choose the other weapon after dying, make sure you change both this method call and the last one to reflect the new choice.
+
 
 // Run the program. If you died start over.
 
@@ -144,7 +145,7 @@ var end = function(status){
 
 
 
-// Almost there! Now you face you next challenge-the boss. Type where you will attack the boss, either the head of the tail like this- fightBoss("head") of fightBoss("tail")
+// Almost there! Now you face your next challenge-the boss. Type where you will attack the boss, either the head or the tail like this- fightBoss("lion") or fightBoss("snake")
 
 // Run the program. If you died start over.
 
