@@ -48,17 +48,18 @@ var weapon=function(choice){
 if (choice === "sword"){
   chunk.weapon = "sword";
   chunk.damage = 5;
-  console.log("You pick up the sword and notice its fine balance. You feel like you have chosen correctly.");
+  console.log("You pick up the sword and notice its fine balance. Your health is 10. Your damage has gone from 0 to 5!");
   castle()
 }
 else if (choice === "hammer"){
-  chunk.damage = 5;
+  chunk.damage = 3;
   chunk.weapon = "hammer"
-  console.log("You pick up the hammer and know that nothing will get in your way now. You feel like you have chosen correctly.");
+  console.log("You pick up the hammer and know that nothing will get in your way now. Your health is 10. Your damage has gone from 0 to 3!");
   castle()
 }
 else {
-  console.log("You don't choose an available weapon and are promptly eaten by wolves.")
+  chunk.health -= 10
+  console.log("You don't choose an available weapon and are promptly eaten by wolves. Your health is now "+ chunk.health+".")
 }
 }
 
@@ -69,36 +70,40 @@ console.log("You enter the castle and are immediately beset by a skeleton!")
 }
   var fightSword = function(decision){
   if (decision === "yes"){
-    console.log("You hack and slash at the skeleton but you realize that there is no way to hurt it with a blade. As you slowly wear down you wish you had chosen the hammer, as you would have no trouble pulverizing it with a blunt weapon. As the light fades from your eyes you hear the skeleton welcoming you to your final resting place.")
+    console.log("You hack and slash at the skeleton but you realize that there is no way to hurt it with a blade. As you slowly wear down you wish you had chosen the hammer, as you would have no trouble pulverizing it with a blunt weapon. As the light fades from your eyes you hear the skeleton welcoming you to your final resting place. Your health is now "+ chunk.health+".")
     end("dead")
   }
   else if (decision != "yes"){
-    console.log("You decide not to fight and hope the skeleton shows mercy.")
+    console.log("You decide not to fight and hope the skeleton shows mercy. Your health is now "+ chunk.health+".")
     end("dead")
   }
   }
 
   var fightHammer = function(decisionHammer){
 if (decisionHammer == "yes"){
-    console.log("You raise your hammer and smash the skeleton into a fine dust.")
+  chunk.health -= 5
+    console.log("You engage the skeleton in battle, and he immediately delivers a crushing blow to your head. Your health is now "+ chunk.health+". You raise your hammer and smash the skeleton into a fine dust.")
     fighton()
   }
-  else if (decisionHammer != "yes"){
-    console.log("You decide not to fight and hope the skeleton shows mercy.")
-    end("dead")
+  else if (decisionHammer == "no"){
+    chunk.health -= 9
+    console.log("You try and sneak past the skeleton, but your heavy boots were not made for sneaking and he hears you. He immediately engages you and you are in for the fight of your life. You end up beating him off, but only just, sustaining some serious injuries. Your health is now "+ chunk.health+".")
+    fighton()
   }
   }
 
 var fighton = function(){
   console.log ("You continue on past what remains of the skeleton, congratulating yourself on picking up the hammer instead of the sword, as you could never have defeated the skeleton with a blade.")
   console.log ("You feel stronger somehow after defeating the skeleton.")
-  chunk.health = 100
+  chunk.health += 50
   chunk.damage = 10
+  console.log("Your health is now "+ chunk.health +" and your damage is now "+ chunk.damage +"!")
   console.log("You open the door leading further into the castle and come upon a monstrosity- a creature that looks as if it is fashioned from different animals. It has the head of a lion on one end, the body of a horse, the head of a snake on the other end, and it has the talons of an eagle. You remember learning of these creatures, they are called chimaeras. You have to choose which end you will attack.")
 }
   var fightBoss = function(chimaeraDecision){
   if (chimaeraDecision === "lion"){
-    console.log("You charge straight in and start swinging at the lions-head, landing blow after blow. But the chimaera is crafty, it spins around and the snake-head sinks its fangs into you. You feel you limbs go numb as the poison pumps through your blood. Your vision goes black.")
+    chunk.health = 0
+    console.log("You charge straight in and start swinging at the lions-head, landing blow after blow. But the chimaera is crafty, it spins around and the snake-head sinks its fangs into you. You feel you limbs go numb as the poison pumps through your blood. Your vision goes black. Your health is now "+ chunk.health+".")
 end("dead")
   }
   else if (chimaeraDecision === "snake"){
@@ -153,7 +158,7 @@ var end = function(status){
 
 // Refactored Code
 
-// I will refactor if I have time. I haven't really done much with the properties and the leveling up changing of properties. I'm quite sure this code works but prompt doesn't work when you run it in node so its difficult to make any changes. Not sure how to put it into html. Will try to do that time-permitting. I changed everything so it could be run in console, took out all the prompts.
+// I will refactor if I have time. I haven't really done much with the properties and the leveling up changing of properties. I'm quite sure this code works but prompt doesn't work when you run it in node so its difficult to make any changes. Not sure how to put it into html. Will try to do that time-permitting. I changed everything so it could be run in console, took out all the prompts. It works now and I've changed it so there are a few instances where properties get changed.
 
 
 
@@ -162,7 +167,7 @@ var end = function(status){
 //
 //What was the most difficult part of this challenge?
 
-// The most difficult part was trying to figure out how I can test it since you can't use prompt in node. I'm trying to figure out what to use instead. SO I ended up changing everything into functions you could call. This isn't nearly as slick or easily interactible, but it at least works.
+// The most difficult part was trying to figure out how I can test it since you can't use prompt in node. I'm trying to figure out what to use instead. So I ended up changing everything into functions you could call. This isn't nearly as slick or easily interactible, but it at least works.
 
 // What did you learn about creating objects and functions that interact with one another?
 
