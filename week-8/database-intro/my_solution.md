@@ -1,4 +1,4 @@
-1 . SELECT * FROM states;
+1. SELECT * FROM states;
 2. SELECT * FROM regions;
 3. SELECT state_name, population FROM states;
 4. SELECT state_name, population FROM states ORDER BY population DESC;
@@ -9,7 +9,7 @@
 9. SELECT region_name FROM regions WHERE region_name LIKE '%Central%';
 10. SELECT region_name, state_name FROM states JOIN regions ON states.region_id=regions.id ORDER BY region_id;
 
-![Tables](/Desktop/DBC/Phase-0/week-8/database-intro/Schema_for_8.4)
+![Tables](https://github.com/tnewcomb0/Phase-0/blob/master/week-8/database-intro/Schema_for_8.4.png)
 
 What are databases for?
 
