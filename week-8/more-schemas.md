@@ -1,8 +1,8 @@
-![One-to-One]()
+![One-to-One](https://github.com/tnewcomb0/Phase-0/blob/master/week-8/imgs/One-To-One.png)
 
 A one-to-one relationship is used to keep a table from getting too bloated. Sometimes there is a lot of information that a table needs to contain, so in order to keep the table from getting to big you can include some of that other data in a linked table. In my example, I linked customers and their addresses. Including all the information of an address in the first table would add quite a few extra lines. This type of relationship is rarely used.
 
-![Many-to-Many]()
+![Many-to-Many](https://github.com/tnewcomb0/Phase-0/blob/master/week-8/imgs/Many-To-Many.png)
 
 
 What is a one-to-one database?
