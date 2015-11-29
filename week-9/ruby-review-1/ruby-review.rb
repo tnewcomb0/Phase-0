@@ -2,7 +2,7 @@
 
 
 # I worked on this challenge with: Jon.
-# This challenge took me [#] hours.
+# This challenge took me [3] hours.
 
 
 # Pseudocode
